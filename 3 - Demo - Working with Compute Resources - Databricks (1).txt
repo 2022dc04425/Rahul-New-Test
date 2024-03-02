@@ -1,0 +1,85 @@
+1/9/24, 3:13 PM
+
+1.6 - Demo - Working with Compute Resources - Databricks
+
+1.6 - Demo - Working with Compute Resources
+(https://databricks.com)
+
+Demo: Compute Resources
+In order to work with data in Databricks, we need to use compute resources (i.e.,
+clusters and warehouses). In this demo, we will launch a new cluster and a new
+warehouse.
+Learning Objectives
+1. Launch a new cluster.
+2. Launch a new warehouse.
+
+Create a Cluster
+Depending on the workspace in which you're currently working, you may or may
+not have cluster creation privileges.
+Instructions in this section assume that you do have cluster creation privileges, and
+that you need to deploy a new cluster to execute the lessons in this course.
+NOTE: Check with your instructor or a platform admin to confirm whether or not
+you should create a new cluster or connect to a cluster that has already been
+deployed. Cluster policies may impact your options for cluster configuration.
+Steps:
+1. In the left sidebar, right-click on Compute and open the link in a new tab. This
+will allow you to refer back to these instructions, as needed
+2. Click the blue Create Compute button
+3. For the Cluster name, use your name so that you can find it easily
+4. Set the cluster to Single Node, to control costs for this testing cluster.
+5. Set the Access Mode to Single User (this mode is required for Unity Catalog)
+6. Use the recommended Databricks runtime version for this course
+7. Leave boxes checked for the default settings under the Autoscaling Options
+8. Note the configuration options available for clusters
+9. Click the blue Create Compute button
+
+file:///C:/Users/DELL/Downloads/1.6 - Demo - Working with Compute Resources.html
+
+1/3
+
+1/9/24, 3:13 PM
+
+1.6 - Demo - Working with Compute Resources - Databricks
+
+NOTE: Clusters can take several minutes to deploy and startup. Once you have
+finished deploying a cluster feel free to continue to explore the compute creation
+
+Single User Cluster Required for This Course
+IMPORTANT: This course requires you to run notebooks on a single user cluster.
+Follow the instructions above to create a cluster that has Access mode set to
+Single User .
+
+Create a SQL Warehouse
+Now that we have created a cluster, let's create a SQL Warehouse, so we can run
+queries in Databricks SQL.
+Steps:
+1. Click on the tab, SQL Warehouses, on the Compute page
+2. Click Create SQL warehouse
+3. For the Name, use your name so that you can find it easily
+4. Set the Cluster size to 2X-Small
+5. Verify the Auto-stop is set to 10 minutes
+6. Verify the Scaling is set to 1 for the Min. and 1 for the Max.
+7. Verify that Type is set to Serverless
+8. Note the Advanced options
+9. Click Create
+
+Conclusion
+Now that we have created our compute resources, we can begin running
+notebooks and queries.
+© 2023 Databricks, Inc. All rights reserved.
+Apache, Apache Spark, Spark and the Spark logo are trademarks of the Apache
+Software Foundation (https://www.apache.org/).
+
+file:///C:/Users/DELL/Downloads/1.6 - Demo - Working with Compute Resources.html
+
+2/3
+
+1/9/24, 3:13 PM
+
+1.6 - Demo - Working with Compute Resources - Databricks
+
+file:///C:/Users/DELL/Downloads/1.6 - Demo - Working with Compute Resources.html
+
+3/3
+
+
